@@ -6,6 +6,9 @@ gem 'rails', '4.1.6'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 gem 'bootstrap-sass'
+gem 'quiet_assets'
+gem 'simple_form'
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
