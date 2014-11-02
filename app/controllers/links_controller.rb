@@ -21,11 +21,11 @@ class LinksController < ApplicationController
 	def redirect
 		@link = Link.find_by(:slug => params[:slug])
 		if @link
-		redirect_to @link.target_url
+		redirect_to "http://#{@link.target_url}"
 	else
 		raise ActionController::RoutingError.new('Not Found')
 	end
-end
+	end
 
 end
 
